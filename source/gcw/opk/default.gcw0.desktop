@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=Super Methane Bros.
+Comment=Bubble Bobble-like game.
+Exec=methane
+Icon=icon
+Terminal=false
+Categories=games;
+X-OD-NeedsDownscaling=true
