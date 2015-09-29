@@ -128,7 +128,7 @@ AUTOMAKE = ${SHELL} /home/hatsune/Documents/DEV/methane-1.4.8DC/source/gcw/libmi
 AWK = gawk
 CC = mipsel-linux-gcc
 CCDEPMODE = depmode=gcc3
-CFLAGS = -g -O2 -pthread -ffast-math -Wall -D_REENTRANT -DSYM_VISIBILITY -fvisibility=hidden
+CFLAGS = -I/home/hatsune/Ndless/ndless-sdk//include/SDL -g -O2 -pthread -ffast-math -Wall -D_REENTRANT -DSYM_VISIBILITY -fvisibility=hidden
 CPP = mipsel-linux-gcc -E
 CPPFLAGS = 
 CYGPATH_W = echo
@@ -159,7 +159,7 @@ LIBMIKMOD_MICRO_VERSION = 7
 LIBMIKMOD_MINOR_VERSION = 3
 LIBMIKMOD_VERSION = 3.3.7
 LIBOBJS = 
-LIBRARY_LIB =  -ldl -lm 
+LIBRARY_LIB =  -ldl -lSDL -lm 
 LIBS = 
 LIBTOOL = $(SHELL) $(top_builddir)/libtool
 LIB_LDADD = -pthread
@@ -193,9 +193,9 @@ PKG_CONFIG_PATH =
 RANLIB = mipsel-linux-ranlib
 REENTRANT = -pthread -D_REENTRANT
 SDL2_CONFIG = 
-SDL_CFLAGS = 
-SDL_CONFIG = 
-SDL_LIBS = 
+SDL_CFLAGS = -I/home/hatsune/Ndless/ndless-sdk//include/SDL
+SDL_CONFIG = /home/hatsune/Ndless/ndless-sdk/bin/sdl-config
+SDL_LIBS = -lSDL
 SED = /bin/sed
 SET_MAKE = 
 SHELL = /bin/sh

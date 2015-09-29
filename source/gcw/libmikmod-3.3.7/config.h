@@ -72,7 +72,7 @@
 /* #undef DRV_SAM9407 */
 
 /* Define if the SDL audio driver is compiled */
-/* #undef DRV_SDL */
+#define DRV_SDL 1
 
 /* Define if the SGI audio driver is compiled */
 /* #undef DRV_SGI */

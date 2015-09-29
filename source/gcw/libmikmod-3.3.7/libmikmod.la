@@ -17,7 +17,7 @@ old_library='libmikmod.a'
 inherited_linker_flags=' -pthread'
 
 # Libraries that this one depends upon.
-dependency_libs=' -ldl -lm'
+dependency_libs=' -ldl /home/hatsune/Documents/DEV/gcw0-toolchain/usr/mipsel-gcw0-linux-uclibc/sysroot/usr/lib/libSDL.la -lm'
 
 # Names of additional weak libraries provided by this library
 weak_library_names=''

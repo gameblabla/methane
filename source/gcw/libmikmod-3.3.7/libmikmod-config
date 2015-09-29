@@ -50,7 +50,7 @@ while test $# -gt 0 ; do
 		echo -pthread
 	;;
 	--libs)
-		echo -L${exec_prefix}/lib -lmikmod  -ldl -lm 
+		echo -L${exec_prefix}/lib -lmikmod  -ldl -lSDL -lm 
 	;;
 	*)
 		echo "${usage}" 1>&2

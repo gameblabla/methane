@@ -1,7 +1,7 @@
 CXX = mipsel-linux-g++
 STRIP = mipsel-linux-strip
 
-OPT = -O0 -g -fdata-sections -ffunction-sections -mips32r2
+OPT = -O2 -fomit-frame-pointer -fdata-sections -ffunction-sections -mips32r2
 LDOPT = -Wl,--as-needed -Wl,--gc-sections -flto 
 
 CFLAGS = $(OPT) -Wall -DMETHANE_MIKMOD -I/usr/include/SDL -I./ -I./../
